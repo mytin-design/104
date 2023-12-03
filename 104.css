@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+    --dark-cyan: hsl(185, 75%,39%);
+    --very-d-desb: hsl(229, 23%, 23%);
+    --dark-g-b: hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.name, .stats {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.main {
+    background-color: var(--dark-cyan);
+    width: 90%;
+    height: 500px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.card {
+height: 50vh;
+display: flex;
+align-items: center;
+flex-direction: column;
+border-radius: 1pc;
+}
+
+
+.card-svg {
+    border-top-left-radius: 1pc;
+    border-top-right-radius: 1pc;
+    width: 100%;
+    height: 100%;
+
+
+}
+.bottom {
+    background: white;
+    width: 100%;
+    height: 56%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom-left-radius: 1pc;
+    border-bottom-right-radius: 1pc;
+}
+
+.victor {
+    position: absolute;
+    top: 41%;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+.info {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: .5pc;
+    gap: .5pc;
+}
+
+.stat-s {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
